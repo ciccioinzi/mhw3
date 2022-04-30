@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  margin: 0 20px;
+}
+
+#titolo {
+  color: white;
+  font-family: Georgia, Times;
+}
+
+header {
+  color: white;
+  background-image: url(https://www.natifly.com/wp-content/uploads/2016/09/spiaggia-di-arcomagno-calabria.jpg);
+  height: 500px;
+  background-color: rgba(0, 0, 0, .3); 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  font-size: 20px;
+  padding: 20px 20px;
+  margin: 10px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  font-weight: bold;
+  font-size: 24px;
+  color: yellow;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+#links {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: yellow;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  display: flex;
+  border-radius: 100px;
+  background-color: yellow;
+  flex-shrink: 1;
+  margin: -50px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+#main h1 {
+  font-size: 28px;
+  font-weight: normal;
+  color: rgba(26,26,26,.9);
+  margin: 100px 125px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  padding: 75px;
+  text-align: center;
+}
+
+.posto {
+  display: inline;
+  font-size: 50px;
+  margin-left: -30px;
+}
+
+.verde {
+  color: rgb(61, 153, 145);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.numero {
+  display: inline;
+  font-size: 3em;
+  position: relative;
+  right: 40px;
+}
+
+.testo {
+  display: inline;
+  position: relative;
+}
+
+.descrizione {
+  line-height: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sotto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-container1 {
+  display: flex;
+  width: 66.7%;
+  text-align: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+.foto {
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 500px) {
+  article { 
+    margin: 0 2px;
+  }
+}
+
+#album-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+#album-view img {
+  max-width: 100%;
+}
